@@ -6,6 +6,12 @@
   width: 100%;
 }
 
+ul li a {
+  color: white;
+  font-size: 20px;
+}
+
+
 ul {
   display: flex;
   list-style: none;
@@ -21,3 +27,5 @@ ul > li {
 ul > li:hover {
   border-bottom: 1px solid #fff;
 }
+
+
