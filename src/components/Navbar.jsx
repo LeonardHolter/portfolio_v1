@@ -4,8 +4,8 @@ const Navbar = () => {
             
             <ul>
                 <li><a href="/">Blog</a></li>
-                <li><a href="google.com">Portfolio</a></li>
-                <li><a href="goog.com">Resume</a></li>
+                <li><a href="/Portfolio">Portfolio</a></li>
+                <li><a href="/Resume">Resume</a></li>
             </ul>
         </nav>
 );
