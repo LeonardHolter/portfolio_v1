@@ -1,3 +1,6 @@
+
+
+
 .Typewriter {
   font-family: 'Playfair Display', serif;
   position: absolute;
@@ -11,8 +14,9 @@
 
 .subTypewriter {
   font-family: 'Playfair Display', serif;
+  color: lightgray;
   top: 47%;
-  width: 500px;
+  width: 300px;
   opacity: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -23,10 +27,22 @@
   animation-delay: 2s;
   animation-duration: 4s;
   animation-fill-mode: forwards;
-
-
 }
 
+.gif {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 125px;
+  opacity: 0;
+
+
+  animation: fadeInAnimation;
+  animation-delay: 4s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
 
 @keyframes fadeInAnimation {
   0% {
@@ -38,3 +54,35 @@
   }
 
 }
+
+
+
+
+.Project1 {
+  position: absolute;
+  width: 60%;
+  transform: translateX(33.333%);
+  top: 150%;
+  height: 35%;
+  opacity: 0.9;
+  border-radius: 10px;
+  background-color: rgb(13, 13, 13);
+
+}
+
+.Project1 > img {
+  position: absolute;
+  height: 100%;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.Header1 {
+  position: absolute;
+  font-family: 'Playfair Display', serif;
+  font-weight: 100px;
+  font-size: x-large;
+  left: 60%;
+}
+
+
