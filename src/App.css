@@ -52,37 +52,99 @@
   100% {
     opacity: 100%;
   }
-
 }
 
-
-
-
-.Project1 {
+.projects{
   position: absolute;
-  width: 60%;
-  transform: translateX(33.333%);
-  top: 150%;
-  height: 35%;
-  opacity: 0.9;
-  border-radius: 10px;
-  background-color: rgb(13, 13, 13);
-
+  margin-top: 600px;
 }
 
-.Project1 > img {
-  position: absolute;
-  height: 100%;
-  border-style: solid;
-  border-radius: 10px;
-}
-
-.Header1 {
-  position: absolute;
+.projectsTitle{
   font-family: 'Playfair Display', serif;
-  font-weight: 100px;
-  font-size: x-large;
-  left: 60%;
+  font-size: 70px;
+  text-align: center;
+
 }
+
+.projectContainer {
+  margin: 100px 20%;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 300px;
+}
+
+.projectImageSection {
+  border-right: solid ;
+}
+
+.projectImage {
+  height: 100%;
+}
+
+.projectinfo {
+  font-family: 'Playfair Display', serif;
+  margin: 0 30px;
+  text-align: center;
+}
+
+.projectTitle {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.projectButtons{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly ;
+}
+
+.projectButtons > a {
+  color: black;
+}
+
+
+.projectView {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  padding: 3px 30px;
+  border-radius: 1.5rem;
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+.projectView > a {
+  color: black;
+}
+
+.projectView:hover{
+  transform: scale(1.1);
+  color: black;
+}
+
+
+.projectCode {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  padding: 3px 30px;
+  border-radius: 1.5rem;
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+.projectCode > a {
+
+  color: black;
+}
+
+.projectCode:hover {
+  transform: scale(1.1);
+  color: black;
+}
+
 
 
