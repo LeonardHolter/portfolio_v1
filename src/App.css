@@ -1,4 +1,12 @@
+nav {
+  display: flex;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
 
+}
 
 
 .Typewriter {
@@ -14,9 +22,10 @@
 
 .subTypewriter {
   font-family: 'Playfair Display', serif;
+  font-size: x-large;
   color: lightgray;
   top: 47%;
-  width: 300px;
+  width: 400px;
   opacity: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -31,10 +40,10 @@
 
 .gif {
   position: absolute;
-  top: 72%;
+  top: 82%;
   left: 50%;
   transform: translateX(-50%);
-  width: 125px;
+  width: 100px;
   opacity: 0;
 
 
@@ -83,6 +92,7 @@
 
 .projectImageSection {
   border-right: solid ;
+  border-left: solid;
 }
 
 .projectImage {
