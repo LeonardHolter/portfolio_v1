@@ -17,7 +17,7 @@ const ProjectSection = () => {
                             <a href="https://www.google.com" >
                                 <div className="projectView">View site</div>
                             </a>
-                            <a href="https://github.com/LeonardHolter/Personal-Website">
+                            <a href="https://github.com/LeonardHolter/Personal-Website" target="_blank">
                                 <div  className="projectCode">Check it out on Github</div>
                             </a>
                         </div>
@@ -37,7 +37,7 @@ const ProjectSection = () => {
                             <a href="https://www.google.com" >
                                 <div className="projectView">View site</div>
                             </a>
-                            <a href="https://github.com/LeonardHolter/Personal-Website">
+                            <a href="https://github.com/LeonardHolter/Little-Lemon-Website" target="_blank">
                                 <div  className="projectCode">Check it out on Github</div>
                             </a>
                         </div>
